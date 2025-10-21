@@ -1,6 +1,6 @@
 # RobIA: Robust Instance-aware Continual Test-time Adaptation for Deep Stereo [NeurIPS 2025]
 [![Project Website](https://img.shields.io/badge/Project-Website-blue)]() 
-- Authors: [Jueun Ko*](https://github.com/hhhyyeee), [Hyewon Park*](https://github.com/0ju-un), [Hyesong Choi](https://github.com/doihye), Dongbo Min (* denotes equal contribution)
+- Authors: [Jueun Ko](https://github.com/0ju-un)\*, [Hyewon Park](https://github.com/hhhyyeee)\*, [Hyesong Choi](https://github.com/doihye), Dongbo Min (\* denotes equal contribution)
 > 🚨 **Code will be released soon.**
 
 
