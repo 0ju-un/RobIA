@@ -113,7 +113,7 @@ python run.py --cfg cfgs/config.ini
 | Method | Round 1 (D1-all ↓) | Round 10 (D1-all ↓) | **overall (D1-all ↓)** |
 | ------ | -------------- | ------------- |  ------------- | 
 | Source (no adapt.) |    5.56   |       5.56    |      5.56     |
-| RobIA  |            |           |           |
+| RobIA  |     3.75     |   2.57     |      2.77     |
 
 ## 📌 Citation
 
