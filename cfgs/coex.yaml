@@ -1,0 +1,53 @@
+max_disparity: 192
+backbone: 
+
+  from_scratch: False
+  channels:
+    mobilenetv3_large_100: [16,24,40,112,160]
+    mobilenetv2_120d: [24,32,40,112,192]
+    mobilenetv2_100: [16,24,32,96,160]
+    mobilenetv2_100_attex_moe: [16,24,32,96,160]
+
+
+    mnasnet_100: [16,24,40,96,192]
+    efficientnet_b0: [16,24,40,112,192]
+    efficientnet_b3a: [24,32,48,136,232]
+    mixnet_xl: [40,48,64,192,320]
+    dla34: [32,64,128,256,512]
+    resnet18: [64,64,128,256,512]
+    resnet18_moe: [64,64,128,256,512]
+
+
+
+  layers:
+    mobilenetv3_large_100: [1,2,3,5,6]
+    mobilenetv2_120d: [1,2,3,5,6]
+    mobilenetv2_100: [1,2,3,5,6]
+    mobilenetv2_100_attex_moe: [1,2,3,5,6]
+    cond_mobilenetv2: [2,4,7,14,17]
+
+    mnasnet_100: [1,2,3,5,6]
+    efficientnet_b0: [1,2,3,5,6]
+    efficientnet_b3a: [1,2,3,5,6]
+    mixnet_xl: [1,2,3,5,6]
+    dla34: [1,2,3,5,6]
+    resnet18: []
+    resnet18_moe: []
+
+corr_volume: True
+gce: True
+
+matching_head: 1
+matching_weighted: False
+
+spixel: 
+  branch_channels: [32,48]
+
+aggregation:
+  disp_strides: 2
+  channels: [16,32,48]
+  blocks_num: [2,2,2]
+  depthsize: False
+
+regression:
+  top_k: 2
