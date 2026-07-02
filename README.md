@@ -12,7 +12,7 @@ This repository is official code of **"RobIA: Robust Instance-aware Continual Te
 
 
 ## 🎬 Overview
-![Method Cover](assets/figure1_1_5.png)
+![Method Cover](figure1_1_5.png)
 
 RobIA performs **Continual Test-Time Adaptation (CTTA)** for deep stereo matching, adapting a pretrained stereo network online as it encounters a stream of shifting target domains (e.g. dusky → rainy → night) without access to ground truth. It introduces two components:
 
